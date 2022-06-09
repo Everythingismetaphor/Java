@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        /*2.内部样式*/
+        h2{color: blue;}
+    </style>
+    <style>
+        /*4外部样式 导入*/
+        @import "css/style.css";
+    </style>
+</head>
+<body>
+<!--优先级，就近原则-->
+<!--1行内样式-->
+<h1 style="color: red">1.行内样式</h1>
+<br>
+<h2>2.内部样式</h2>
+<br>
+<h3>3.外部样式（链接）</h3>
+<br>
+<h4>4.外部样式（导入）</h4>
+</body>
+</html>
